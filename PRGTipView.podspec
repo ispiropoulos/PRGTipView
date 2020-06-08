@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PRGTipView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PRGTipView.'
+  s.summary          = 'A quick way to add onboarding tips in your app.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,24 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A quick way to add onboarding tips in your app. With pulse effect.
                        DESC
 
-  s.homepage         = 'https://github.com/John Spiropoulos/PRGTipView'
+  s.homepage         = 'https://github.com/ispiropoulos/PRGTipView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'John Spiropoulos' => 'johnspir@me.com' }
   s.source           = { :git => 'https://github.com/John Spiropoulos/PRGTipView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'PRGTipView/Classes/**/*'
-  
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'PRGTipView' => ['PRGTipView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end

@@ -44,7 +44,7 @@ public class PRGAnimatableMaskedView: UIView, CAAnimationDelegate {
                 bottom: -inset.bottom,
                 right: -inset.right
             )
-            let rect = UIEdgeInsetsInsetRect(maskFrame, invertInset)
+            let rect = maskFrame.inset(by: invertInset)
             [path, endPath].forEach({
                 $0.addRect(rect)
             })
@@ -76,7 +76,7 @@ public class PRGAnimatableMaskedView: UIView, CAAnimationDelegate {
         
         maskLayer.backgroundColor = UIColor.black.cgColor
         maskLayer.path = path
-        maskLayer.fillRule = kCAFillRuleEvenOdd
+        maskLayer.fillRule = .evenOdd
         maskLayer.anchorPoint = CGPoint(x: 0, y: 0)
         self.backgroundColor = backgroundColor
         
@@ -92,7 +92,7 @@ public class PRGAnimatableMaskedView: UIView, CAAnimationDelegate {
                 bottom: -inset.bottom,
                 right: -inset.right
             )
-            let insetRect = UIEdgeInsetsInsetRect(maskFrame, invertInset)
+            let insetRect = maskFrame.inset(by: invertInset)
             pulseLayer?.frame = insetRect
             if isCircular {
                 pulseLayerPath.addArc(center: CGPoint(x: insetRect.midX - insetRect.minX, y: insetRect.midY - insetRect.minY), radius: largest/2 + inset.top, startAngle: 0.0, endAngle: 2.0 * .pi, clockwise: false)
@@ -125,14 +125,14 @@ public class PRGAnimatableMaskedView: UIView, CAAnimationDelegate {
         let anim = CABasicAnimation(keyPath: "path")
         anim.fromValue = dismissal ? pathToEnd : pathToStart
         anim.toValue = dismissal ? pathToStart : pathToEnd
-        anim.fillMode = kCAFillModeForwards
+        anim.fillMode = .forwards
         anim.isRemovedOnCompletion = false
         var duration: Double {
             if dismissal { return animated ? animationsDuration : 0.01}
             return animated ? animationsDuration : 0.01
         }
         anim.duration = duration
-        anim.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        anim.timingFunction = CAMediaTimingFunction(name: .linear)
         anim.delegate = self
         
         if dismissal {

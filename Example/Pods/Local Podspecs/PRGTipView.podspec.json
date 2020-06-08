@@ -1,9 +1,9 @@
 {
   "name": "PRGTipView",
   "version": "0.1.0",
-  "summary": "A short description of PRGTipView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/John Spiropoulos/PRGTipView",
+  "summary": "A quick way to add onboarding tips in your app.",
+  "description": "A quick way to add onboarding tips in your app. With pulse effect.",
+  "homepage": "https://github.com/ispiropoulos/PRGTipView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +16,10 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "PRGTipView/Classes/**/*"
+  "source_files": "PRGTipView/Classes/**/*",
+  "swift_versions": "5.0",
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
 }

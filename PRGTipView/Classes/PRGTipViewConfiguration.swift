@@ -28,7 +28,7 @@ public class PRGTipViewConfiguration {
     
     public weak var focusView: UIView?
     public var circularFocus: Bool = false
-    public var useLargestDimension: Bool = false
+    public var useLargestDimension: Bool = true
     public var focusInsets: UIEdgeInsets = UIEdgeInsets.zero
     
     public var animateIn: Bool = true
@@ -40,6 +40,8 @@ public class PRGTipViewConfiguration {
     public var tipContainerLeading: CGFloat = 20
     public var tipContainerTrailing: CGFloat = 20
     public var animationsDuration: Double = 0.3
+    
+   public init() {}
 }
 
 public enum PRGTipViewFocusViewPulseMode {

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A quick way to add onboarding tips in your app. With pulse effect.
+  A quick way to add onboarding tips in your app. PRGTipView uses the Pulsar library to optimally add pulsating effects to your focused views.
                        DESC
 
   s.homepage         = 'https://github.com/ispiropoulos/PRGTipView'

@@ -157,7 +157,7 @@ public class PRGTipView: UIViewController {
         print("TipView has been deinitialised")
     }
     
-    static func show(fromViewController viewController: UIViewController, withConfiguration configuration: PRGTipViewConfiguration, completion: (()->())?) {
+    public static func show(fromViewController viewController: UIViewController, withConfiguration configuration: PRGTipViewConfiguration, completion: (()->())?) {
         let tipView = PRGTipView(configuration: configuration)
         viewController.present(tipView, animated: false, completion: completion)
     }

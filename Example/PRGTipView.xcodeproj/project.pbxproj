@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F064C7B3E8E35111549313C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0F064C7B3E8E35111549313C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PRGTipView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRGTipView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* PRGTipView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRGTipView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9510F51020B1B75507E4317B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9510F51020B1B75507E4317B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BFC0E4546883C47624942900 /* Pods_PRGTipView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRGTipView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94A578BB756F046CC7DC60F /* Pods_PRGTipView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRGTipView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D026385A5B3FA0DA70FD027F /* Pods-PRGTipView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRGTipView_Example.debug.xcconfig"; path = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6BE176196C84FF00769AD43 /* Pods-PRGTipView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRGTipView_Example.release.xcconfig"; path = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6D7D3F8B2CBCF8B943B2E52 /* Pods-PRGTipView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRGTipView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PRGTipView_Tests/Pods-PRGTipView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D89ECA6322208C9E8E53ACB8 /* PRGTipView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PRGTipView.podspec; path = ../PRGTipView.podspec; sourceTree = "<group>"; };
+		D89ECA6322208C9E8E53ACB8 /* PRGTipView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PRGTipView.podspec; path = ../PRGTipView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F94668EF62210C16116ECE0C /* Pods-PRGTipView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRGTipView_Tests.release.xcconfig"; path = "Target Support Files/Pods-PRGTipView_Tests/Pods-PRGTipView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				D6D7D3F8B2CBCF8B943B2E52 /* Pods-PRGTipView_Tests.debug.xcconfig */,
 				F94668EF62210C16116ECE0C /* Pods-PRGTipView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

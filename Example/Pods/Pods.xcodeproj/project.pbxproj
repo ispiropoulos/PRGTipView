@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		127C06C0248E438400B949FD /* PRGTipViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06B7248E438400B949FD /* PRGTipViewConfiguration.swift */; };
-		127C06C1248E438400B949FD /* PRGTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06B8248E438400B949FD /* PRGTipView.swift */; };
-		127C06C2248E438400B949FD /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06BA248E438400B949FD /* AnimationDelegate.swift */; };
-		127C06C3248E438400B949FD /* PulseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06BB248E438400B949FD /* PulseLayer.swift */; };
-		127C06C4248E438400B949FD /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06BC248E438400B949FD /* CALayer+Extensions.swift */; };
-		127C06C5248E438400B949FD /* ApplicationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06BD248E438400B949FD /* ApplicationObserver.swift */; };
-		127C06C6248E438400B949FD /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06BE248E438400B949FD /* Pulse.swift */; };
-		127C06C7248E438400B949FD /* PRGAnimatableMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06BF248E438400B949FD /* PRGAnimatableMaskView.swift */; };
+		127C06D1248E448D00B949FD /* PRGAnimatableMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06C8248E448C00B949FD /* PRGAnimatableMaskView.swift */; };
+		127C06D2248E448D00B949FD /* PRGTipViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06C9248E448D00B949FD /* PRGTipViewConfiguration.swift */; };
+		127C06D3248E448D00B949FD /* PRGTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CA248E448D00B949FD /* PRGTipView.swift */; };
+		127C06D4248E448D00B949FD /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CC248E448D00B949FD /* AnimationDelegate.swift */; };
+		127C06D5248E448D00B949FD /* PulseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CD248E448D00B949FD /* PulseLayer.swift */; };
+		127C06D6248E448D00B949FD /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CE248E448D00B949FD /* CALayer+Extensions.swift */; };
+		127C06D7248E448D00B949FD /* ApplicationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CF248E448D00B949FD /* ApplicationObserver.swift */; };
+		127C06D8248E448D00B949FD /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06D0248E448D00B949FD /* Pulse.swift */; };
 		241FF30B3F64A1E0CF73D8DEA82855B9 /* PRGTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9F81DEAD79D48AA4B4CD09F4AF4B36 /* PRGTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BCBDFEE39B881CA21311CB036514281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		2C241ED7E25E31D3AB89E5A08A553840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
@@ -47,14 +47,14 @@
 /* Begin PBXFileReference section */
 		0C2A48BEE14CADC3C4FF8CB93A87D8BF /* Pods-PRGTipView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRGTipView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		112F5C95C869BCA58AD48F5878F1B82F /* Pods-PRGTipView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRGTipView_Example-Info.plist"; sourceTree = "<group>"; };
-		127C06B7248E438400B949FD /* PRGTipViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRGTipViewConfiguration.swift; sourceTree = "<group>"; };
-		127C06B8248E438400B949FD /* PRGTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRGTipView.swift; sourceTree = "<group>"; };
-		127C06BA248E438400B949FD /* AnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDelegate.swift; sourceTree = "<group>"; };
-		127C06BB248E438400B949FD /* PulseLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseLayer.swift; sourceTree = "<group>"; };
-		127C06BC248E438400B949FD /* CALayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
-		127C06BD248E438400B949FD /* ApplicationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationObserver.swift; sourceTree = "<group>"; };
-		127C06BE248E438400B949FD /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
-		127C06BF248E438400B949FD /* PRGAnimatableMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRGAnimatableMaskView.swift; sourceTree = "<group>"; };
+		127C06C8248E448C00B949FD /* PRGAnimatableMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PRGAnimatableMaskView.swift; path = ../PRGTipView/Classes/PRGAnimatableMaskView.swift; sourceTree = "<group>"; };
+		127C06C9248E448D00B949FD /* PRGTipViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PRGTipViewConfiguration.swift; path = ../PRGTipView/Classes/PRGTipViewConfiguration.swift; sourceTree = "<group>"; };
+		127C06CA248E448D00B949FD /* PRGTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PRGTipView.swift; path = ../PRGTipView/Classes/PRGTipView.swift; sourceTree = "<group>"; };
+		127C06CC248E448D00B949FD /* AnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDelegate.swift; sourceTree = "<group>"; };
+		127C06CD248E448D00B949FD /* PulseLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseLayer.swift; sourceTree = "<group>"; };
+		127C06CE248E448D00B949FD /* CALayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
+		127C06CF248E448D00B949FD /* ApplicationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationObserver.swift; sourceTree = "<group>"; };
+		127C06D0248E448D00B949FD /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
 		1A802C5ECEED97B64BDC9F16725BDFB8 /* PRGTipView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRGTipView.debug.xcconfig; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		32517AAD6FF92AB809D4825D6E1BFED5 /* Pods-PRGTipView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PRGTipView_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -120,24 +120,25 @@
 		127C06B6248E438400B949FD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				127C06B7248E438400B949FD /* PRGTipViewConfiguration.swift */,
-				127C06B8248E438400B949FD /* PRGTipView.swift */,
-				127C06B9248E438400B949FD /* Pulsar */,
-				127C06BF248E438400B949FD /* PRGAnimatableMaskView.swift */,
+				127C06C8248E448C00B949FD /* PRGAnimatableMaskView.swift */,
+				127C06CA248E448D00B949FD /* PRGTipView.swift */,
+				127C06C9248E448D00B949FD /* PRGTipViewConfiguration.swift */,
+				127C06CB248E448D00B949FD /* Pulsar */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		127C06B9248E438400B949FD /* Pulsar */ = {
+		127C06CB248E448D00B949FD /* Pulsar */ = {
 			isa = PBXGroup;
 			children = (
-				127C06BA248E438400B949FD /* AnimationDelegate.swift */,
-				127C06BB248E438400B949FD /* PulseLayer.swift */,
-				127C06BC248E438400B949FD /* CALayer+Extensions.swift */,
-				127C06BD248E438400B949FD /* ApplicationObserver.swift */,
-				127C06BE248E438400B949FD /* Pulse.swift */,
+				127C06CC248E448D00B949FD /* AnimationDelegate.swift */,
+				127C06CD248E448D00B949FD /* PulseLayer.swift */,
+				127C06CE248E448D00B949FD /* CALayer+Extensions.swift */,
+				127C06CF248E448D00B949FD /* ApplicationObserver.swift */,
+				127C06D0248E448D00B949FD /* Pulse.swift */,
 			);
-			path = Pulsar;
+			name = Pulsar;
+			path = ../PRGTipView/Classes/Pulsar;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -358,6 +359,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					8514FC466B5B9BB89AB70702905B76C1 = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -416,15 +422,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127C06D7248E448D00B949FD /* ApplicationObserver.swift in Sources */,
 				2F109A4188EAC6E0B1A09B815011AD34 /* PRGTipView-dummy.m in Sources */,
-				127C06C7248E438400B949FD /* PRGAnimatableMaskView.swift in Sources */,
-				127C06C5248E438400B949FD /* ApplicationObserver.swift in Sources */,
-				127C06C2248E438400B949FD /* AnimationDelegate.swift in Sources */,
-				127C06C1248E438400B949FD /* PRGTipView.swift in Sources */,
-				127C06C4248E438400B949FD /* CALayer+Extensions.swift in Sources */,
-				127C06C0248E438400B949FD /* PRGTipViewConfiguration.swift in Sources */,
-				127C06C3248E438400B949FD /* PulseLayer.swift in Sources */,
-				127C06C6248E438400B949FD /* Pulse.swift in Sources */,
+				127C06D1248E448D00B949FD /* PRGAnimatableMaskView.swift in Sources */,
+				127C06D5248E448D00B949FD /* PulseLayer.swift in Sources */,
+				127C06D3248E448D00B949FD /* PRGTipView.swift in Sources */,
+				127C06D6248E448D00B949FD /* CALayer+Extensions.swift in Sources */,
+				127C06D4248E448D00B949FD /* AnimationDelegate.swift in Sources */,
+				127C06D2248E448D00B949FD /* PRGTipViewConfiguration.swift in Sources */,
+				127C06D8248E448D00B949FD /* Pulse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A802C5ECEED97B64BDC9F16725BDFB8 /* PRGTipView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -478,6 +485,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -556,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED2E6A06FE52C04E57584B5A678BFEBF /* PRGTipView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

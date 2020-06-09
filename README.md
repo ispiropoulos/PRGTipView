@@ -99,3 +99,5 @@ John Spiropoulos, jspiropoulos@programize.com
 
 PRGTipView is made for [Programize LLC](https://www.programize.com) by John Spiropoulos and it is available under the MIT license.
 
+This product includes Pulsar code by Vincent Esche. License information is stored here: [LICENSE](LICENSE)
+

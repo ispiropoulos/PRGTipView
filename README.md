@@ -8,6 +8,7 @@
 PRGTipView is a drop-in solution for adding onboarding tips to your apps. It supports:
 - Title, detail and dismissal button
 - Give focus on a particular view with configurable insets
+- Automatic placement of title, detail and the button above or below the focused view (if provided)
 - Presentation and dismissal animations
 - Focus view pulsating effect (using the [Pulsar](https://github.com/regexident/Pulsar) Library)
 

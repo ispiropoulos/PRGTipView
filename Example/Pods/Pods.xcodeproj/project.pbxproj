@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		127C06D1248E448D00B949FD /* PRGAnimatableMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06C8248E448C00B949FD /* PRGAnimatableMaskView.swift */; };
-		127C06D2248E448D00B949FD /* PRGTipViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06C9248E448D00B949FD /* PRGTipViewConfiguration.swift */; };
-		127C06D3248E448D00B949FD /* PRGTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CA248E448D00B949FD /* PRGTipView.swift */; };
-		127C06D4248E448D00B949FD /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CC248E448D00B949FD /* AnimationDelegate.swift */; };
-		127C06D5248E448D00B949FD /* PulseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CD248E448D00B949FD /* PulseLayer.swift */; };
-		127C06D6248E448D00B949FD /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CE248E448D00B949FD /* CALayer+Extensions.swift */; };
-		127C06D7248E448D00B949FD /* ApplicationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06CF248E448D00B949FD /* ApplicationObserver.swift */; };
-		127C06D8248E448D00B949FD /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127C06D0248E448D00B949FD /* Pulse.swift */; };
-		241FF30B3F64A1E0CF73D8DEA82855B9 /* PRGTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9F81DEAD79D48AA4B4CD09F4AF4B36 /* PRGTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0741A8A8A05B31445B794E3E9FE98B3F /* PRGTipViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47505A85DC4E13197D53E67BC27EAF0 /* PRGTipViewConfiguration.swift */; };
 		2BCBDFEE39B881CA21311CB036514281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		2C241ED7E25E31D3AB89E5A08A553840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		2F109A4188EAC6E0B1A09B815011AD34 /* PRGTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841624F560A92490EDCEC79D3821361 /* PRGTipView-dummy.m */; };
+		45B863C8A98E856CF4B909538894B467 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1728D6EDB3761A4C04F4D11C80DC3 /* Pulse.swift */; };
+		720F055B1834C0241C623FF9E376FB8C /* PulseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4C6E574443DBF05241C72737E7DBF /* PulseLayer.swift */; };
+		76BA8B0B7899333DEF02026E0286DDD8 /* PRGAnimatableMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D7A8B2AFE82F1753CF6AB8AE283EC7 /* PRGAnimatableMaskView.swift */; };
+		852FC2D40893E4710C4392A89091A545 /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E8B14772B6E41C6229011E88DCD79 /* AnimationDelegate.swift */; };
+		906D8FF9FBF97D31519DDFC7BD5D81FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		98885BD2945199385F62CAA9BF48F5AA /* Pods-PRGTipView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32517AAD6FF92AB809D4825D6E1BFED5 /* Pods-PRGTipView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B7B5A982CE772C484D75E418F964F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		A2B5B060AB792DD84F4988A98D105144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		BCA166307A526C6CF27568C1A04C662C /* Pods-PRGTipView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC55062F80FD5BBB1D2A3D557271AF5 /* Pods-PRGTipView_Tests-dummy.m */; };
 		C40FC4D401505EA1AF6BC992AC2782C4 /* Pods-PRGTipView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3331FABF9A51FDF49DDA65E52D879B77 /* Pods-PRGTipView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4790281BD7A09A6932CABF1271BC06C /* Pods-PRGTipView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFE77FF68BC95E42DE54B94A1231C29 /* Pods-PRGTipView_Example-dummy.m */; };
+		CF6572E791F36334D1C1F228C2743DDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		D37D8A76C39248EDC200F325966D056B /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC1503AD3AB06E710A687C7F077003 /* CALayer+Extensions.swift */; };
+		D37F4F3D8FEC19DAD02CF4470EDCF2EA /* PRGTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA164F40DEAAC0A269100D471C0DAF3 /* PRGTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4691DF3C875DF257D7E101AA1F51BC9 /* PRGTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE14C15A32605B5A3C4B3C74758E057 /* PRGTipView.swift */; };
+		EA9F29251A8ED8DF2DF48AC398F55431 /* PRGTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EE20D27CA830D47F3BCE95989DD87 /* PRGTipView-dummy.m */; };
+		FBE630564BB84F1E875E2CFBF9FCE64F /* ApplicationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCBFA9AE668A1CE5E603A035BD1C8E5 /* ApplicationObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,56 +45,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AE14C15A32605B5A3C4B3C74758E057 /* PRGTipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PRGTipView.swift; path = PRGTipView/Classes/PRGTipView.swift; sourceTree = "<group>"; };
 		0C2A48BEE14CADC3C4FF8CB93A87D8BF /* Pods-PRGTipView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRGTipView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		112F5C95C869BCA58AD48F5878F1B82F /* Pods-PRGTipView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRGTipView_Example-Info.plist"; sourceTree = "<group>"; };
-		127C06C8248E448C00B949FD /* PRGAnimatableMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PRGAnimatableMaskView.swift; path = ../PRGTipView/Classes/PRGAnimatableMaskView.swift; sourceTree = "<group>"; };
-		127C06C9248E448D00B949FD /* PRGTipViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PRGTipViewConfiguration.swift; path = ../PRGTipView/Classes/PRGTipViewConfiguration.swift; sourceTree = "<group>"; };
-		127C06CA248E448D00B949FD /* PRGTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PRGTipView.swift; path = ../PRGTipView/Classes/PRGTipView.swift; sourceTree = "<group>"; };
-		127C06CC248E448D00B949FD /* AnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDelegate.swift; sourceTree = "<group>"; };
-		127C06CD248E448D00B949FD /* PulseLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseLayer.swift; sourceTree = "<group>"; };
-		127C06CE248E448D00B949FD /* CALayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
-		127C06CF248E448D00B949FD /* ApplicationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationObserver.swift; sourceTree = "<group>"; };
-		127C06D0248E448D00B949FD /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
-		1A802C5ECEED97B64BDC9F16725BDFB8 /* PRGTipView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRGTipView.debug.xcconfig; sourceTree = "<group>"; };
+		1F88D9B2AEA99704C5CF39BA04295282 /* PRGTipView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PRGTipView.modulemap; sourceTree = "<group>"; };
+		274EE20D27CA830D47F3BCE95989DD87 /* PRGTipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRGTipView-dummy.m"; sourceTree = "<group>"; };
+		2F58F8EA687D39FFBE4F6AB2C0AA46AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		32517AAD6FF92AB809D4825D6E1BFED5 /* Pods-PRGTipView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PRGTipView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3331FABF9A51FDF49DDA65E52D879B77 /* Pods-PRGTipView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PRGTipView_Example-umbrella.h"; sourceTree = "<group>"; };
 		33C426A5FA9D239DBFFCD90A25AFF791 /* Pods-PRGTipView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PRGTipView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		36DB4805C11D3250923204D5C80A8D5F /* Pods-PRGTipView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PRGTipView_Tests.modulemap"; sourceTree = "<group>"; };
+		3AC5EF93CF9DD267112335CBDEC2C850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3E9542F27A703E18229DF51472862790 /* Pods-PRGTipView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRGTipView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		424E8B14772B6E41C6229011E88DCD79 /* AnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationDelegate.swift; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4824D054B949B8D5FCD2AFFAF3E54CC2 /* PRGTipView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PRGTipView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		567B5FD6D3C3B62BBDEC3BD25AA80171 /* PRGTipView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRGTipView-prefix.pch"; sourceTree = "<group>"; };
-		57A61FB26532DEFE74126DAE78D534DE /* PRGTipView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PRGTipView-Info.plist"; sourceTree = "<group>"; };
-		65CA07652D21A560DAB57234E639404D /* Pods_PRGTipView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRGTipView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCBFA9AE668A1CE5E603A035BD1C8E5 /* ApplicationObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApplicationObserver.swift; sourceTree = "<group>"; };
+		4EA164F40DEAAC0A269100D471C0DAF3 /* PRGTipView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRGTipView-umbrella.h"; sourceTree = "<group>"; };
+		52B41F66AAF74ED297A14BC845B3CE05 /* PRGTipView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRGTipView.release.xcconfig; sourceTree = "<group>"; };
+		60D7A8B2AFE82F1753CF6AB8AE283EC7 /* PRGAnimatableMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PRGAnimatableMaskView.swift; path = PRGTipView/Classes/PRGAnimatableMaskView.swift; sourceTree = "<group>"; };
+		65CA07652D21A560DAB57234E639404D /* Pods_PRGTipView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PRGTipView_Example.framework; path = "Pods-PRGTipView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		665BB11C66DDD77FE5EA7A8292DBA490 /* Pods-PRGTipView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRGTipView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A4DC4D503944EB189FB72E156C8256F /* Pods-PRGTipView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRGTipView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7841624F560A92490EDCEC79D3821361 /* PRGTipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRGTipView-dummy.m"; sourceTree = "<group>"; };
+		6BBA6B65012944F97C88669F7949C5C7 /* PRGTipView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRGTipView-prefix.pch"; sourceTree = "<group>"; };
 		7BE2C1E5B2EC9737D4CAC42DF641C4CE /* Pods-PRGTipView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRGTipView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		90618F61FDAE2ECF3AA500D1982051BF /* PRGTipView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRGTipView.debug.xcconfig; sourceTree = "<group>"; };
+		987AE418BEB93FD765C4226C3CEAEC96 /* PRGTipView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PRGTipView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CFE77FF68BC95E42DE54B94A1231C29 /* Pods-PRGTipView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PRGTipView_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE9F81DEAD79D48AA4B4CD09F4AF4B36 /* PRGTipView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRGTipView-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9FC1503AD3AB06E710A687C7F077003 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
 		B6618207AA750104F8AD7396C0A88508 /* Pods-PRGTipView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRGTipView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAC55062F80FD5BBB1D2A3D557271AF5 /* Pods-PRGTipView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PRGTipView_Tests-dummy.m"; sourceTree = "<group>"; };
-		BE315200B9A427FBDB52437D937A77C8 /* Pods_PRGTipView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRGTipView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D175472E1CC37FE4FF1501516EEE17 /* PRGTipView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PRGTipView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE315200B9A427FBDB52437D937A77C8 /* Pods_PRGTipView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PRGTipView_Tests.framework; path = "Pods-PRGTipView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D175472E1CC37FE4FF1501516EEE17 /* PRGTipView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PRGTipView.framework; path = PRGTipView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67AD97B64C4280179003EBE768F4686 /* Pods-PRGTipView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PRGTipView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D70F62E493A9B917EE8EA825DC834C18 /* Pods-PRGTipView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRGTipView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D98AEEE1E936F44A7E4FCBCBA86C71D7 /* Pods-PRGTipView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRGTipView_Tests-Info.plist"; sourceTree = "<group>"; };
-		DCCFCCF9E4C8122436F1DCF69492A4E6 /* PRGTipView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PRGTipView.modulemap; sourceTree = "<group>"; };
-		ED2E6A06FE52C04E57584B5A678BFEBF /* PRGTipView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRGTipView.release.xcconfig; sourceTree = "<group>"; };
-		FD923198DFE38E9D6193DB93CACF18C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E9F1728D6EDB3761A4C04F4D11C80DC3 /* Pulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
+		EF00410777B77DC4D28DBD87A264B041 /* PRGTipView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PRGTipView-Info.plist"; sourceTree = "<group>"; };
+		F3E4C6E574443DBF05241C72737E7DBF /* PulseLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PulseLayer.swift; sourceTree = "<group>"; };
+		F47505A85DC4E13197D53E67BC27EAF0 /* PRGTipViewConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PRGTipViewConfiguration.swift; path = PRGTipView/Classes/PRGTipViewConfiguration.swift; sourceTree = "<group>"; };
 		FDC196C66553A026E642C236C0862AF9 /* Pods-PRGTipView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PRGTipView_Example.modulemap"; sourceTree = "<group>"; };
-		FF1D988479C660192202F172682B18FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		309D9E3052DBC187A3CC388FF53F62CA /* Frameworks */ = {
+		2B112E00FC07C17F07BB2C19FCE3E88C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C241ED7E25E31D3AB89E5A08A553840 /* Foundation.framework in Frameworks */,
-				A2B5B060AB792DD84F4988A98D105144 /* UIKit.framework in Frameworks */,
+				906D8FF9FBF97D31519DDFC7BD5D81FE /* Foundation.framework in Frameworks */,
+				CF6572E791F36334D1C1F228C2743DDE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,30 +117,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		127C06B6248E438400B949FD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				127C06C8248E448C00B949FD /* PRGAnimatableMaskView.swift */,
-				127C06CA248E448D00B949FD /* PRGTipView.swift */,
-				127C06C9248E448D00B949FD /* PRGTipViewConfiguration.swift */,
-				127C06CB248E448D00B949FD /* Pulsar */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		127C06CB248E448D00B949FD /* Pulsar */ = {
-			isa = PBXGroup;
-			children = (
-				127C06CC248E448D00B949FD /* AnimationDelegate.swift */,
-				127C06CD248E448D00B949FD /* PulseLayer.swift */,
-				127C06CE248E448D00B949FD /* CALayer+Extensions.swift */,
-				127C06CF248E448D00B949FD /* ApplicationObserver.swift */,
-				127C06D0248E448D00B949FD /* Pulse.swift */,
-			);
-			name = Pulsar;
-			path = ../PRGTipView/Classes/Pulsar;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,14 +125,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3175CAC3281658DCED4F9C09D97A5512 /* PRGTipView */ = {
+		3F32A6CDCE01C478A219ABF774F6FFDC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B483559C5A77B0DE57E66775B1A84802 /* Pod */,
-				A6B4FA89E7D8F228E60A56E4377A9018 /* Support Files */,
+				8FC235C3FD904A6A7DE9960C9FC2B467 /* PRGTipView */,
 			);
-			name = PRGTipView;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		70EE45A586A4BD5C51851988FB03E3C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F88D9B2AEA99704C5CF39BA04295282 /* PRGTipView.modulemap */,
+				274EE20D27CA830D47F3BCE95989DD87 /* PRGTipView-dummy.m */,
+				EF00410777B77DC4D28DBD87A264B041 /* PRGTipView-Info.plist */,
+				6BBA6B65012944F97C88669F7949C5C7 /* PRGTipView-prefix.pch */,
+				4EA164F40DEAAC0A269100D471C0DAF3 /* PRGTipView-umbrella.h */,
+				90618F61FDAE2ECF3AA500D1982051BF /* PRGTipView.debug.xcconfig */,
+				52B41F66AAF74ED297A14BC845B3CE05 /* PRGTipView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PRGTipView";
 			sourceTree = "<group>";
 		};
 		89ECF77D0A9CE1A7EDE4DFFB74689601 /* Pods-PRGTipView_Tests */ = {
@@ -175,6 +164,20 @@
 			path = "Target Support Files/Pods-PRGTipView_Tests";
 			sourceTree = "<group>";
 		};
+		8FC235C3FD904A6A7DE9960C9FC2B467 /* PRGTipView */ = {
+			isa = PBXGroup;
+			children = (
+				60D7A8B2AFE82F1753CF6AB8AE283EC7 /* PRGAnimatableMaskView.swift */,
+				0AE14C15A32605B5A3C4B3C74758E057 /* PRGTipView.swift */,
+				F47505A85DC4E13197D53E67BC27EAF0 /* PRGTipViewConfiguration.swift */,
+				FDCE590950FF90B12F7DD1D0B063663E /* Pod */,
+				D0DD4B11A878BD0933E6652F22D82E23 /* Pulsar */,
+				70EE45A586A4BD5C51851988FB03E3C6 /* Support Files */,
+			);
+			name = PRGTipView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		9B0EA0A469FF6B797E9CB7CBE024E8FE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,21 +185,6 @@
 				89ECF77D0A9CE1A7EDE4DFFB74689601 /* Pods-PRGTipView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A6B4FA89E7D8F228E60A56E4377A9018 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCCFCCF9E4C8122436F1DCF69492A4E6 /* PRGTipView.modulemap */,
-				7841624F560A92490EDCEC79D3821361 /* PRGTipView-dummy.m */,
-				57A61FB26532DEFE74126DAE78D534DE /* PRGTipView-Info.plist */,
-				567B5FD6D3C3B62BBDEC3BD25AA80171 /* PRGTipView-prefix.pch */,
-				AE9F81DEAD79D48AA4B4CD09F4AF4B36 /* PRGTipView-umbrella.h */,
-				1A802C5ECEED97B64BDC9F16725BDFB8 /* PRGTipView.debug.xcconfig */,
-				ED2E6A06FE52C04E57584B5A678BFEBF /* PRGTipView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PRGTipView";
 			sourceTree = "<group>";
 		};
 		AD01C07DE227CA1C8A0A3C32EA2DCE77 /* Products */ = {
@@ -209,34 +197,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFF02CC95354672AAAD457388C655C2C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3175CAC3281658DCED4F9C09D97A5512 /* PRGTipView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B483559C5A77B0DE57E66775B1A84802 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				127C06B6248E438400B949FD /* Classes */,
-				FD923198DFE38E9D6193DB93CACF18C3 /* LICENSE */,
-				4824D054B949B8D5FCD2AFFAF3E54CC2 /* PRGTipView.podspec */,
-				FF1D988479C660192202F172682B18FA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AFF02CC95354672AAAD457388C655C2C /* Development Pods */,
+				3F32A6CDCE01C478A219ABF774F6FFDC /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				AD01C07DE227CA1C8A0A3C32EA2DCE77 /* Products */,
 				9B0EA0A469FF6B797E9CB7CBE024E8FE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0DD4B11A878BD0933E6652F22D82E23 /* Pulsar */ = {
+			isa = PBXGroup;
+			children = (
+				424E8B14772B6E41C6229011E88DCD79 /* AnimationDelegate.swift */,
+				4BCBFA9AE668A1CE5E603A035BD1C8E5 /* ApplicationObserver.swift */,
+				A9FC1503AD3AB06E710A687C7F077003 /* CALayer+Extensions.swift */,
+				E9F1728D6EDB3761A4C04F4D11C80DC3 /* Pulse.swift */,
+				F3E4C6E574443DBF05241C72737E7DBF /* PulseLayer.swift */,
+			);
+			name = Pulsar;
+			path = PRGTipView/Classes/Pulsar;
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -265,6 +247,16 @@
 			path = "Target Support Files/Pods-PRGTipView_Example";
 			sourceTree = "<group>";
 		};
+		FDCE590950FF90B12F7DD1D0B063663E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2F58F8EA687D39FFBE4F6AB2C0AA46AD /* LICENSE */,
+				987AE418BEB93FD765C4226C3CEAEC96 /* PRGTipView.podspec */,
+				3AC5EF93CF9DD267112335CBDEC2C850 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -276,19 +268,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5013889CACC0CE9C46E3E64E36FB17C4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				241FF30B3F64A1E0CF73D8DEA82855B9 /* PRGTipView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7534CDBBAA0477912A24AEE18A72118E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C40FC4D401505EA1AF6BC992AC2782C4 /* Pods-PRGTipView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5A5EC992A19ECC938C112A3D2E10C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37F4F3D8FEC19DAD02CF4470EDCF2EA /* PRGTipView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,12 +308,12 @@
 		};
 		8514FC466B5B9BB89AB70702905B76C1 /* PRGTipView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C8C3FB2B33B696DAD7536ECB5DDCA37 /* Build configuration list for PBXNativeTarget "PRGTipView" */;
+			buildConfigurationList = 614DA4EE7534DEE42853FA3CA59DFCAA /* Build configuration list for PBXNativeTarget "PRGTipView" */;
 			buildPhases = (
-				5013889CACC0CE9C46E3E64E36FB17C4 /* Headers */,
-				36EB7D12742460B86638E3FF405DB8F5 /* Sources */,
-				309D9E3052DBC187A3CC388FF53F62CA /* Frameworks */,
-				4A29A02D5379A62593F51639D9EB47A8 /* Resources */,
+				FA5A5EC992A19ECC938C112A3D2E10C3 /* Headers */,
+				BD93CD788299BF7D391CA81463F693E9 /* Sources */,
+				2B112E00FC07C17F07BB2C19FCE3E88C /* Frameworks */,
+				F8A6CA3D1EDB5170B9B8D440E92E6DDF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -359,11 +351,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					8514FC466B5B9BB89AB70702905B76C1 = {
-						LastSwiftMigration = 1140;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -386,13 +373,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4A29A02D5379A62593F51639D9EB47A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		53F3BE069C8CDE7D617F098942D7B535 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,6 +381,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A4318BA9B8C2E0534CA8801DDA2B55D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A6CA3D1EDB5170B9B8D440E92E6DDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,27 +405,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36EB7D12742460B86638E3FF405DB8F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				127C06D7248E448D00B949FD /* ApplicationObserver.swift in Sources */,
-				2F109A4188EAC6E0B1A09B815011AD34 /* PRGTipView-dummy.m in Sources */,
-				127C06D1248E448D00B949FD /* PRGAnimatableMaskView.swift in Sources */,
-				127C06D5248E448D00B949FD /* PulseLayer.swift in Sources */,
-				127C06D3248E448D00B949FD /* PRGTipView.swift in Sources */,
-				127C06D6248E448D00B949FD /* CALayer+Extensions.swift in Sources */,
-				127C06D4248E448D00B949FD /* AnimationDelegate.swift in Sources */,
-				127C06D2248E448D00B949FD /* PRGTipViewConfiguration.swift in Sources */,
-				127C06D8248E448D00B949FD /* Pulse.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6018CD0C97183C0EBFB4A844099A763F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C4790281BD7A09A6932CABF1271BC06C /* Pods-PRGTipView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD93CD788299BF7D391CA81463F693E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852FC2D40893E4710C4392A89091A545 /* AnimationDelegate.swift in Sources */,
+				FBE630564BB84F1E875E2CFBF9FCE64F /* ApplicationObserver.swift in Sources */,
+				D37D8A76C39248EDC200F325966D056B /* CALayer+Extensions.swift in Sources */,
+				76BA8B0B7899333DEF02026E0286DDD8 /* PRGAnimatableMaskView.swift in Sources */,
+				EA9F29251A8ED8DF2DF48AC398F55431 /* PRGTipView-dummy.m in Sources */,
+				E4691DF3C875DF257D7E101AA1F51BC9 /* PRGTipView.swift in Sources */,
+				0741A8A8A05B31445B794E3E9FE98B3F /* PRGTipViewConfiguration.swift in Sources */,
+				45B863C8A98E856CF4B909538894B467 /* Pulse.swift in Sources */,
+				720F055B1834C0241C623FF9E376FB8C /* PulseLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,39 +447,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		36FAC876BFE332E350B1E82F6A147AB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A802C5ECEED97B64BDC9F16725BDFB8 /* PRGTipView.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PRGTipView/PRGTipView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRGTipView/PRGTipView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRGTipView/PRGTipView.modulemap";
-				PRODUCT_MODULE_NAME = PRGTipView;
-				PRODUCT_NAME = PRGTipView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4AF474650ADDA79FC9F53B984CE6E246 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C2A48BEE14CADC3C4FF8CB93A87D8BF /* Pods-PRGTipView_Tests.debug.xcconfig */;
@@ -526,6 +480,69 @@
 			};
 			name = Debug;
 		};
+		57CC5FFFEE6C4580B9995534F1304D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90618F61FDAE2ECF3AA500D1982051BF /* PRGTipView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PRGTipView/PRGTipView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRGTipView/PRGTipView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PRGTipView/PRGTipView.modulemap";
+				PRODUCT_MODULE_NAME = PRGTipView;
+				PRODUCT_NAME = PRGTipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		932C832EA60475A87C1514A0A0B649C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B41F66AAF74ED297A14BC845B3CE05 /* PRGTipView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PRGTipView/PRGTipView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRGTipView/PRGTipView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PRGTipView/PRGTipView.modulemap";
+				PRODUCT_MODULE_NAME = PRGTipView;
+				PRODUCT_NAME = PRGTipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9DFFFE261349C359DB58FFAC06115F1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D70F62E493A9B917EE8EA825DC834C18 /* Pods-PRGTipView_Example.release.xcconfig */;
@@ -553,39 +570,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A0138BB19F15D95F0E357539F51897EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED2E6A06FE52C04E57584B5A678BFEBF /* PRGTipView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PRGTipView/PRGTipView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRGTipView/PRGTipView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRGTipView/PRGTipView.modulemap";
-				PRODUCT_MODULE_NAME = PRGTipView;
-				PRODUCT_NAME = PRGTipView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -679,7 +663,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -786,20 +771,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C8C3FB2B33B696DAD7536ECB5DDCA37 /* Build configuration list for PBXNativeTarget "PRGTipView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				36FAC876BFE332E350B1E82F6A147AB8 /* Debug */,
-				A0138BB19F15D95F0E357539F51897EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614DA4EE7534DEE42853FA3CA59DFCAA /* Build configuration list for PBXNativeTarget "PRGTipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CC5FFFEE6C4580B9995534F1304D13 /* Debug */,
+				932C832EA60475A87C1514A0A0B649C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

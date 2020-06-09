@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/ispiropoulos/PRGTipView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://raw.githubusercontent.com/ispiropoulos/PRGTipView/master/screen1.png', 'https://raw.githubusercontent.com/ispiropoulos/PRGTipView/master/screen2.png', 'https://raw.githubusercontent.com/ispiropoulos/PRGTipView/master/screen3.png', 'https://raw.githubusercontent.com/ispiropoulos/PRGTipView/master/screen4.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'John Spiropoulos' => 'johnspir@me.com' }
   s.source           = { :git => 'https://github.com/John Spiropoulos/PRGTipView.git', :tag => s.version.to_s }

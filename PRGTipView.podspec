@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A quick way to add onboarding tips in your app. PRGTipView uses the Pulsar library to optimally add pulsating effects to your focused views.
+  PRGTipView is a drop-in solution to add onboarding tips to your iOS apps. It also uses the Pulsar library to optimally add pulsating effects to your focused views.
                        DESC
 
   s.homepage         = 'https://github.com/ispiropoulos/PRGTipView'
@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  # s.frameworks = 'UIKit'
 end

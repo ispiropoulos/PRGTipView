@@ -90,6 +90,9 @@ PRGTipViewConfiguration contains properties that help customize the presenting t
 | tipContainerTrailing | CGFloat             | 20                         | The spacing between the container of the actual Tip Texts (Title, Detail, Button) trailing to it's superView's trailing.                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | animationDuration    | Double              | 0.3                        | The duration of any animation that takes place in the Tip View (except from the pulsating effect)                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
+## About the Pulsar Library
+
+At the time of publishing PRGTipView, the Pulsar library has not been updated on the Cocoapods repositories and cannot be used as a direct dependency, thus resorting in including the v2.0.5 source code in the bundle. As soon as the dependencies are satisfied via Cocoapods, we will update PRGTipView to use Pulsar as a pod dependency.
 
 ## Author
 

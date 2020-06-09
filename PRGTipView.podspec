@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.screenshots     = 'https://raw.githubusercontent.com/ispiropoulos/PRGTipView/master/screen1.png', 'https://raw.githubusercontent.com/ispiropoulos/PRGTipView/master/screen2.png', 'https://raw.githubusercontent.com/ispiropoulos/PRGTipView/master/screen3.png', 'https://raw.githubusercontent.com/ispiropoulos/PRGTipView/master/screen4.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'John Spiropoulos' => 'johnspir@me.com' }
-  s.source           = { :git => 'https://github.com/John Spiropoulos/PRGTipView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ispiropoulos/PRGTipView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.3'

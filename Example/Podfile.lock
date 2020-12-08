@@ -1,0 +1,16 @@
+PODS:
+  - PRGTipView (0.1.0)
+
+DEPENDENCIES:
+  - PRGTipView (from `../`)
+
+EXTERNAL SOURCES:
+  PRGTipView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PRGTipView: 38f374cc4529c2ed043c14d98cdf3a60cdd8d40d
+
+PODFILE CHECKSUM: bb1f2d2fa0b7dd775e2f7e9d8ac4377336544f7d
+
+COCOAPODS: 1.9.1

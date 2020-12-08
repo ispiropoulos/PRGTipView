@@ -1,0 +1,25 @@
+{
+  "name": "PRGTipView",
+  "version": "0.1.0",
+  "summary": "A quick way to add onboarding tips in your app.",
+  "description": "A quick way to add onboarding tips in your app. PRGTipView uses the Pulsar library to optimally add pulsating effects to your focused views.",
+  "homepage": "https://github.com/ispiropoulos/PRGTipView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "John Spiropoulos": "johnspir@me.com"
+  },
+  "source": {
+    "git": "https://github.com/John Spiropoulos/PRGTipView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "PRGTipView/Classes/**/*",
+  "swift_versions": "5.0",
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
+}

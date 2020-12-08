@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PRGTipView_Example' do
+  pod 'PRGTipView', :path => '../'
+
+  target 'PRGTipView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
